@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- font css -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  
+  <!-- fontawesone css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <!-- glide.js core css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.2.0/css/glide.core.min.css"
+  integrity="sha512-YQlbvfX5C6Ym6fTUSZ9GZpyB3F92hmQAZTO5YjciedwAaGRI9ccNs4iw2QTCJiSPheUQZomZKHQtuwbHkA9lgw=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <!-- glide.theme css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.2.0/css/glide.theme.min.css"
+  integrity="sha512-wCwx+DYp8LDIaTem/rpXubV/C1WiNRsEVqoztV0NZm8tiTvsUeSlA/Uz02VTGSiqfzAHD4RnqVoevMcRZgYEcQ=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <!-- Style CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- media css -->
+  <link rel="stylesheet" href="media.css">
+  
+  <title>Presto.it</title>
+</head>
+<body>
+  <!-- navbar presto -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top presto-navbar presto-navbar-scroll">
+    <div class="container">
+      <a class="navbar-brand fs-4" href="./index.html">Presto.it</a>
+      <button class="navbar-toggler" type="button" 
+      data-bs-toggle="offcanvas" 
+      data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+    </button>
+    <div class="offcanvas offcanvas-end presto-offcanvas" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#About">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#servizi">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Categories">Categories</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Announcements
+          </a>
+          <ul id="navbarDropdownList" class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li>
+              <a class="dropdown-item" href="./filter.html">Filter</a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Terms contition</a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Privacy Policy</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Contact">Contact</a>
+        </li>
+        <div class="d-flex justify-content-center align-items-center ms-2">
+          <a href="http://" class="gradient-icone-social rounded-circle d-flex justify-content-center align-items-center" style="outline: none">
+            <i class="fab fa-facebook-f"></i> 
+          </a>
+          <a href="http://" class="gradient-icone-social text-center rounded-circle d-flex justify-content-center align-items-center">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </div>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- section contatti -->
+<section class="presto-bg-primary-light contatti-padding" id="Contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-6 mt-4 mt-lg-0">
+          <div class="text-center text-lg-start">
+            <p>CONTACTS</p>
+            <h2>Migliore</h2>
+            <p class="text-opacity">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos dicta mollitia totam explicabo obcaecati quia laudantium repudiandae.
+            </p>
+          </div>
+          <form>
+            <div class="mb-3 d-block d-xl-flex">
+              <input type="text" class="form-control me-0 me-xl-4 mb-3 mb-xl-0" id="inputName" placeholder="Name">
+              <input type="text" class="form-control" id="inputTelefono" placeholder="Telefone">
+            </div>
+            <div class="mb-3">
+              <input type="email" class="form-control" id="inputEmail" placeholder="E-mail">
+            </div>
+            <div class="mb-3">
+              <textarea class="form-control" id="inputMessage" rows="6" placeholder="Message"></textarea>
+            </div>
+            <button type="submit" class="masthead-btn">Submit</button>
+          </form>
+        </div>
+        <div class="d-none d-lg-block col-lg-6 mt-5">
+          <img src="./img/contatti.jpg" alt="" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- footer -->
+  <section class="presto-bg-primary py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-3">
+          <h4>Presto.it</h4>
+          <p class="text-opacity text-footer mt-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus animi repudiandae explicabo esse maxime, impedit rem voluptatibus amet error quas.
+          </p>
+          <div class="d-flex mb-5">
+            <a href="http://"><i class="fab fa-instagram fa-2x link-footer me-3"></i></a>
+            <a href="http://"><i class="fab fa-facebook-f fa-2x link-footer me-3"></i></a>
+            <a href="http://"><i class="fab fa-twitter fa-2x link-footer me-3"></i></a>
+          </div>
+        </div>
+        <div class="col-12 col-lg-3 mb-5">
+          <h4>Quick Links</h4>
+          <ul>
+            <li>
+              <i class="fas fa-caret-right me-2 mt-3"></i>
+              <a href="http://" class="link-footer">About</a>
+            </li>
+            <li>
+              <i class="fas fa-caret-right me-2 mt-3"></i>
+              <a href="http://" class="link-footer">Services</a>
+            </li>
+            <li>
+              <i class="fas fa-caret-right me-2 mt-3"></i>
+              <a href="http://" class="link-footer">Plans</a>
+            </li>
+            <li>
+              <i class="fas fa-caret-right me-2 mt-3"></i>
+              <a href="http://" class="link-footer">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-3 mb-5">
+          <h4> Useful Links</h4>
+          <ul>
+            <li>
+              <i class="fas fa-caret-right me-2 mt-3"></i>
+              <a href="http://" class="link-footer">Privacy</a>
+            </li>
+            <li>
+              <i class="fas fa-caret-right me-2 mt-3"></i>
+              <a href="http://" class="link-footer">Terms</a>
+            </li>
+            <li>
+              <i class="fas fa-caret-right me-2 mt-3"></i>
+              <a href="http://" class="link-footer">Cookie</a>
+            </li>
+            <li>
+              <i class="fas fa-caret-right me-2 mt-3"></i>
+              <a href="http://" class="link-footer">FAQ</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-3">
+          <h4>NewsLetter</h4>
+          <p class="text-opacity text-footer mt-3">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, ab.
+          </p>
+          <div class="input-group mb-3">
+            <input type="email" class="form-control" placeholder="E-mail" aria-label="Recipient's username">
+            <button type="submit" class="footer-btn"><i class="fas fa-envelope"></i></button>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+    <!-- Glide.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.2.0/glide.min.js"
+    integrity="sha512-IkLiryZhI6G4pnA3bBZzYCT9Ewk87U4DGEOz+TnRD3MrKqaUitt+ssHgn2X/sxoM7FxCP/ROUp6wcxjH/GcI5Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+  </body>
+  </html>

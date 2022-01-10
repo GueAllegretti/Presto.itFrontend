@@ -1,0 +1,19 @@
+@media screen and (max-width: 991.98px) {
+    .presto-navbar {
+        padding-top: 0;
+        background-color: var(--primary);
+    }
+    .presto-offcanvas {
+        margin-top: 50px;
+    }
+    .presto-offcanvas .navbar-nav {
+        margin-right: auto;
+        margin-left: 0 !important;
+        padding-left: 20px;
+    }
+    .presto-contact-form {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+}
